@@ -1,3 +1,9 @@
+# Folders not shared to GitHub
+settings
+
+va-fhir-data-gen
+va-ccda-data
+
 # JWK
 va-private.pem
 va-public.pem

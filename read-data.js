@@ -6,10 +6,31 @@ const tokenService = 'https://sandbox-api.va.gov/oauth2/health/system/v1/token'
 const fhirEndpoint = 'https://sandbox-api.va.gov/services/fhir/v0/r4'
 const scope = 'launch system/AllergyIntolerance.read system/Appointment.read system/Condition.read system/Device.read system/DeviceRequest.read system/DiagnosticReport.read system/Encounter.read system/Immunization.read system/Location.read system/Medication.read system/MedicationRequest.read system/Observation.read system/Organization.read system/Patient.read system/Procedure.read'
 
-const mtnLotusClientID = '0oa18gyos5wfXeyyJ2p8'
-const mtnLotusPrivateKey = 'va-private.pem'
+const vaClientID = 'settings/va-client-id.txt'
+const vaPrivateKey = 'settings/va-private.pem'
 
-function getAssertionPrivatekey (clientId, key, audience) {
+const signedJWT = getAssertionPrivatekey(vaClientID, vaPrivateKey, aud)
+
+// 56 year old male Veteran
+// await getAllFHIRData('2000190')
+
+// 35 year old female Veteran
+// await getAllFHIRData('36000216')
+
+// Veteran with Diabetes condition
+await getAllFHIRData('21000177')
+
+// Veteran with Metformin meds
+// await getAllFHIRData('43000341')
+
+/*
+ * Supporting functions
+ */
+
+function getAssertionPrivatekey (clientIdFile, keyFile, audience) {
+  let secret = fs.readFileSync(keyFile, "utf8")
+  let clientId = fs.readFileSync(clientIdFile, "utf8")
+
   let secondsSinceEpoch = Math.round(Date.now() / 1000);
   const claims = { 
     "aud": audience,
@@ -19,7 +40,6 @@ function getAssertionPrivatekey (clientId, key, audience) {
     "exp": secondsSinceEpoch + 3600,
     "jti": crypto.randomUUID()
   }
-  let secret = fs.readFileSync(key, "utf8")
   const options = {
     algorithm: 'RS256' // e.g., HS256, RS256
   }
@@ -100,7 +120,7 @@ async function getAllFHIRData(patientID) {
   }
 
   const jsonString = JSON.stringify(fhirBundle, null, 2);
-  await saveJsonToFile(jsonString, `test-data/${patientID}-bundle.json`)
+  await saveJsonToFile(jsonString, `va-fhir-data-gen/${patientID}-bundle.json`)
 }
 
 async function getFHIRData(resourceType, patientID, accessToken) {
@@ -112,7 +132,7 @@ async function getFHIRData(resourceType, patientID, accessToken) {
     }
     if (resourceType === 'MedicationRequest') {
       url = url + '&status=active'
-      // TODO: Using VA sandbox, _include does not return Medication in the bundle or as contained.
+      // BUG: Using VA sandbox, _include does not return Medication in the bundle or as contained.
       url = url + '&_include=MedicationRequest:medication'
     }
     // console.log(url)
@@ -149,14 +169,3 @@ async function saveJsonToFile(jsonString, fileName) {
     console.error('Error writing file:', err);
   }
 }
-
-const signedJWT = getAssertionPrivatekey(mtnLotusClientID, mtnLotusPrivateKey, aud)
-
-await getAllFHIRData('2000190')
-// await getAllFHIRData('36000216')
-
-// Diabetes condition
-// await getAllFHIRData('21000177')
-
-// Metformin meds
-// await getAllFHIRData('43000341')

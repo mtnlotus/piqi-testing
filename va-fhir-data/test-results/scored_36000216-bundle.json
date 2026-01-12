@@ -1,0 +1,251 @@
+{
+    "succeeded": true,
+    "elapsedTimeInMS": 34,
+    "scoringData": {
+        "dataProviderID": "Connectathon",
+        "dataSourceID": "Test Source FHIR",
+        "messageID": "36000216",
+        "channelMnemonic": "CONNECTATHON_USCDI_V3",
+        "evaluationRubric": "USCDI v3",
+        "processDate": "2026-01-12T16:48:33.9100184+00:00",
+        "messageResults": {
+            "denominator": 445,
+            "numerator": 256,
+            "piqiScore": 57,
+            "criticalFailureCount": 60,
+            "weightedDenominator": 445,
+            "weightedNumerator": 256,
+            "weightedPIQIScore": 57
+        },
+        "dataClassResults": [
+            {
+                "dataClassName": "Allergies",
+                "instanceCount": 0,
+                "denominator": 0,
+                "numerator": 0,
+                "piqiScore": 0,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 0,
+                "weightedNumerator": 0,
+                "weightedPIQIScore": 0
+            },
+            {
+                "dataClassName": "Clinical Documents",
+                "instanceCount": 0,
+                "denominator": 0,
+                "numerator": 0,
+                "piqiScore": 0,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 0,
+                "weightedNumerator": 0,
+                "weightedPIQIScore": 0
+            },
+            {
+                "dataClassName": "Conditions",
+                "instanceCount": 2,
+                "denominator": 4,
+                "numerator": 2,
+                "piqiScore": 50,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 4,
+                "weightedNumerator": 2,
+                "weightedPIQIScore": 50
+            },
+            {
+                "dataClassName": "Demographics",
+                "instanceCount": 1,
+                "denominator": 4,
+                "numerator": 1,
+                "piqiScore": 25,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 4,
+                "weightedNumerator": 1,
+                "weightedPIQIScore": 25
+            },
+            {
+                "dataClassName": "Diagnostic Imaging",
+                "instanceCount": 5,
+                "denominator": 15,
+                "numerator": 5,
+                "piqiScore": 33,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 15,
+                "weightedNumerator": 5,
+                "weightedPIQIScore": 33
+            },
+            {
+                "dataClassName": "Encounters",
+                "instanceCount": 16,
+                "denominator": 80,
+                "numerator": 48,
+                "piqiScore": 60,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 80,
+                "weightedNumerator": 48,
+                "weightedPIQIScore": 60
+            },
+            {
+                "dataClassName": "Goals",
+                "instanceCount": 0,
+                "denominator": 0,
+                "numerator": 0,
+                "piqiScore": 0,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 0,
+                "weightedNumerator": 0,
+                "weightedPIQIScore": 0
+            },
+            {
+                "dataClassName": "Health Assessments",
+                "instanceCount": 5,
+                "denominator": 10,
+                "numerator": 5,
+                "piqiScore": 50,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 10,
+                "weightedNumerator": 5,
+                "weightedPIQIScore": 50
+            },
+            {
+                "dataClassName": "Immunizations",
+                "instanceCount": 6,
+                "denominator": 18,
+                "numerator": 6,
+                "piqiScore": 33,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 18,
+                "weightedNumerator": 6,
+                "weightedPIQIScore": 33
+            },
+            {
+                "dataClassName": "Lab Results",
+                "instanceCount": 60,
+                "denominator": 237,
+                "numerator": 162,
+                "piqiScore": 68,
+                "criticalFailureCount": 60,
+                "weightedDenominator": 237,
+                "weightedNumerator": 162,
+                "weightedPIQIScore": 68
+            },
+            {
+                "dataClassName": "Medical Devices",
+                "instanceCount": 1,
+                "denominator": 0,
+                "numerator": 0,
+                "piqiScore": 0,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 0,
+                "weightedNumerator": 0,
+                "weightedPIQIScore": 0
+            },
+            {
+                "dataClassName": "Medications",
+                "instanceCount": 0,
+                "denominator": 0,
+                "numerator": 0,
+                "piqiScore": 0,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 0,
+                "weightedNumerator": 0,
+                "weightedPIQIScore": 0
+            },
+            {
+                "dataClassName": "Procedures",
+                "instanceCount": 11,
+                "denominator": 33,
+                "numerator": 11,
+                "piqiScore": 33,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 33,
+                "weightedNumerator": 11,
+                "weightedPIQIScore": 33
+            },
+            {
+                "dataClassName": "Vital Signs",
+                "instanceCount": 22,
+                "denominator": 44,
+                "numerator": 16,
+                "piqiScore": 36,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 44,
+                "weightedNumerator": 16,
+                "weightedPIQIScore": 36
+            }
+        ],
+        "informationalResults": [
+            {
+                "dataClassName": "Allergies",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Clinical Documents",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Conditions",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Demographics",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Diagnostic Imaging",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Encounters",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Goals",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Health Assessments",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Immunizations",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Lab Results",
+                "evaluationList": [
+                    {
+                        "entityName": "order",
+                        "evaluationName": "Lab Order is LOINC",
+                        "instanceCount": 60,
+                        "denominator": 60,
+                        "numerator": 0
+                    },
+                    {
+                        "entityName": "test",
+                        "evaluationName": "LOINC Code Active",
+                        "instanceCount": 60,
+                        "denominator": 60,
+                        "numerator": 0
+                    }
+                ]
+            },
+            {
+                "dataClassName": "Medical Devices",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Medications",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Procedures",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Vital Signs",
+                "evaluationList": []
+            }
+        ],
+        "detectionResults": []
+    }
+}

@@ -1,0 +1,3477 @@
+{
+    "formatID": "FHIR JSON",
+    "messageID": "36000216",
+    "patient": {
+        "demographics": {
+            "patientIdentifier": "36000216",
+            "birthSex": {
+                "codings": [
+                    {
+                        "system": "http://hl7.org/fhir/us/core/CodeSystem/birthsex",
+                        "code": "F",
+                        "display": "Female"
+                    }
+                ],
+                "text": "Female"
+            },
+            "birthDate": "1990-02-13",
+            "ethnicity": {
+                "codings": [
+                    {
+                        "system": "urn:oid:2.16.840.1.113883.6.238",
+                        "code": "2186-5",
+                        "display": "Not Hispanic or Latino"
+                    }
+                ],
+                "text": "Not Hispanic or Latino"
+            },
+            "primaryLanguage": {
+                "text": "ENGLISH"
+            },
+            "race": {
+                "codings": [
+                    {
+                        "system": "urn:oid:2.16.840.1.113883.6.238",
+                        "code": "2076-8",
+                        "display": "Native Hawaiian or Other Pacific Islander"
+                    }
+                ],
+                "text": "Native Hawaiian or Other Pacific Islander"
+            }
+        },
+        "conditions": [
+            {
+                "conditionType": "Problem List Item",
+                "conditionStatus": {
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "condition": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Anemia (disorder)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Anemia (disorder)"
+                        }
+                    ],
+                    "text": "Anemia (disorder)"
+                },
+                "effectiveDate": "2008-04-08",
+                "onsetDate": "2008-04-08T08:43:18Z"
+            },
+            {
+                "conditionType": "Problem List Item",
+                "conditionStatus": {
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "condition": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Only received primary school education (finding)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Only received primary school education (finding)"
+                        }
+                    ],
+                    "text": "Only received primary school education (finding)"
+                },
+                "effectiveDate": "2008-04-08",
+                "onsetDate": "2008-04-08T09:13:31Z"
+            }
+        ],
+        "immunizations": [
+            {
+                "administrationDate": "2015-04-21T08:43:18Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2018-04-24T08:43:18Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2021-03-02T08:43:18Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: COVID-19"
+                        }
+                    ],
+                    "text": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2021-03-23T08:43:18Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: COVID-19"
+                        }
+                    ],
+                    "text": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2021-04-27T08:43:18Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2021-04-27T08:43:18Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "TD (ADULT), 5 LF TETANUS TOXOID, PRESERVATIVE FREE, ADSORBED"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: Td"
+                        }
+                    ],
+                    "text": "Td (adult) preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            }
+        ],
+        "diagnosticImaging": [
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2015-04-21T08:43:18Z",
+                "effectiveDate": "2015-04-21T08:43:18Z",
+                "issued": "2015-04-21T08:43:19Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2018-04-24T08:43:18Z",
+                "effectiveDate": "2018-04-24T08:43:18Z",
+                "issued": "2018-04-24T08:43:19Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2018-04-24T08:43:18Z",
+                "effectiveDate": "2018-04-24T08:43:18Z",
+                "issued": "2018-04-24T08:43:19Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2021-04-27T08:43:18Z",
+                "effectiveDate": "2021-04-27T08:43:18Z",
+                "issued": "2021-04-27T08:43:19Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2021-04-27T08:43:18Z",
+                "effectiveDate": "2021-04-27T08:43:18Z",
+                "issued": "2021-04-27T08:43:19Z"
+            }
+        ],
+        "labResults": [
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                },
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "5.95"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "93.38"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "7.29"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "1.79"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "9.59"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "139.97"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "4.92"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "109.26"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Carbon Dioxide"
+                        }
+                    ],
+                    "text": "Carbon Dioxide"
+                },
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "25.35"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "5.93"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "75.54"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "8.78"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "1.07"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "9.73"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "137.24"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "5.03"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "105.15"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Carbon Dioxide"
+                        }
+                    ],
+                    "text": "Carbon Dioxide"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "27.39"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Leukocytes [#/volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Leukocytes [#/volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "5.0609"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*3/uL"
+                        }
+                    ],
+                    "text": "10*3/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Erythrocytes [#/volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Erythrocytes [#/volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "5.1194"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*6/uL"
+                        }
+                    ],
+                    "text": "10*6/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin [Mass/volume] in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin [Mass/volume] in Blood"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "13.894"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "g/dl"
+                        }
+                    ],
+                    "text": "g/dl"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+                        }
+                    ],
+                    "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "45.849"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCV [Entitic volume] by Automated count"
+                        }
+                    ],
+                    "text": "MCV [Entitic volume] by Automated count"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "90.174"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCH [Entitic mass] by Automated count"
+                        }
+                    ],
+                    "text": "MCH [Entitic mass] by Automated count"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "27.358"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "pg"
+                        }
+                    ],
+                    "text": "pg"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCHC [Mass/volume] by Automated count"
+                        }
+                    ],
+                    "text": "MCHC [Mass/volume] by Automated count"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "35.136"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "g/dl"
+                        }
+                    ],
+                    "text": "g/dl"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+                        }
+                    ],
+                    "text": "Erythrocyte distribution width [Entitic volume] by Automated count"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "40.563"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelets [#/volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Platelets [#/volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "384.03"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*3/uL"
+                        }
+                    ],
+                    "text": "10*3/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "162.78"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "9.8859"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "6.09"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "72.69"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "11.98"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "1.23"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "9.38"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "140.35"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "4.5"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "106"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Carbon Dioxide"
+                        }
+                    ],
+                    "text": "Carbon Dioxide"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "21.85"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Total Cholesterol"
+                        }
+                    ],
+                    "text": "Total Cholesterol"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "171.09"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Triglycerides"
+                        }
+                    ],
+                    "text": "Triglycerides"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "103.72"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Low Density Lipoprotein Cholesterol"
+                        }
+                    ],
+                    "text": "Low Density Lipoprotein Cholesterol"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "106.04"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "High Density Lipoprotein Cholesterol"
+                        }
+                    ],
+                    "text": "High Density Lipoprotein Cholesterol"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "44.31"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "CEFTAZIDIME"
+                        }
+                    ],
+                    "text": "CEFTAZIDIME"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Resistant"
+                        }
+                    ],
+                    "text": "Resistant"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "CEFTRIAXONE"
+                        }
+                    ],
+                    "text": "CEFTRIAXONE"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Resistant"
+                        }
+                    ],
+                    "text": "Resistant"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "CIPROFLOXACIN"
+                        }
+                    ],
+                    "text": "CIPROFLOXACIN"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Resistant"
+                        }
+                    ],
+                    "text": "Resistant"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "LEVOFLOXACIN"
+                        }
+                    ],
+                    "text": "LEVOFLOXACIN"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Resistant"
+                        }
+                    ],
+                    "text": "Resistant"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "GENTAMICIN"
+                        }
+                    ],
+                    "text": "GENTAMICIN"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Resistant"
+                        }
+                    ],
+                    "text": "Resistant"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "IMIPENEM"
+                        }
+                    ],
+                    "text": "IMIPENEM"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Susceptible"
+                        }
+                    ],
+                    "text": "Susceptible"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMPICILLIN"
+                        }
+                    ],
+                    "text": "AMPICILLIN"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Resistant"
+                        }
+                    ],
+                    "text": "Resistant"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMPICILLIN+SULBACTAM"
+                        }
+                    ],
+                    "text": "AMPICILLIN+SULBACTAM"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Resistant"
+                        }
+                    ],
+                    "text": "Resistant"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "ERTAPENEM"
+                        }
+                    ],
+                    "text": "ERTAPENEM"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Susceptible"
+                        }
+                    ],
+                    "text": "Susceptible"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "NITROFURANTOIN"
+                        }
+                    ],
+                    "text": "NITROFURANTOIN"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Susceptible"
+                        }
+                    ],
+                    "text": "Susceptible"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "PIPERACILLIN+TAZOBACTAM"
+                        }
+                    ],
+                    "text": "PIPERACILLIN+TAZOBACTAM"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Susceptible"
+                        }
+                    ],
+                    "text": "Susceptible"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "TOBRAMYCIN"
+                        }
+                    ],
+                    "text": "TOBRAMYCIN"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Susceptible"
+                        }
+                    ],
+                    "text": "Susceptible"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "TRIMETHOPRIM+SULFAMETHOXAZOLE"
+                        }
+                    ],
+                    "text": "TRIMETHOPRIM+SULFAMETHOXAZOLE"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Susceptible"
+                        }
+                    ],
+                    "text": "Susceptible"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "AMIKACIN"
+                        }
+                    ],
+                    "text": "antibiotic sensitivity"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "CEFAZOLIN"
+                        }
+                    ],
+                    "text": "CEFAZOLIN"
+                },
+                "interpretation": "Resistant",
+                "performedDateTime": "2019-08-14T17:32:51Z",
+                "performingSite": "TEST VAMC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                            "display": "Resistant"
+                        }
+                    ],
+                    "text": "Resistant"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Bacteria identified in Isolate"
+                        }
+                    ],
+                    "text": "bacteriology screen"
+                },
+                "issuedDateTime": "2017-10-08T00:00:00Z",
+                "performedDateTime": "2017-10-07T13:11:21Z",
+                "performingSite": "Dr. Whitley172 Steuber698",
+                "resultStatus": "final"
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Mycobacterium sp identified in Isolate"
+                        }
+                    ],
+                    "text": "mycobacteriology"
+                },
+                "test": {
+                    "text": "Acid Fast Stain"
+                },
+                "reportedDateTime": "2017-11-11T00:00:00Z",
+                "performedDateTime": "2017-11-11T18:46:59Z",
+                "performingSite": "Dr. Whitley172 Steuber698",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "ST"
+                    },
+                    "text": "Concentrate Negative"
+                }
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Fungus identified in Isolate"
+                        }
+                    ],
+                    "text": "mycology"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Amoxicillin (substance)"
+                        }
+                    ],
+                    "text": "Amoxicillin (substance)"
+                },
+                "reportedDateTime": "2019-08-15T19:08:00Z",
+                "performedDateTime": "2020-07-17T13:59:13Z",
+                "performingSite": "Dr. Whitley172 Steuber698",
+                "resultStatus": "final"
+            },
+            {
+                "order": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Parasite identified in Isolate"
+                        }
+                    ],
+                    "text": "PARASITOLOGY 99VA4:600:6-1"
+                },
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Parasitology (procedure)"
+                        }
+                    ],
+                    "text": "Parasitology (procedure)"
+                },
+                "reportedDateTime": "2020-05-27T21:50:00Z",
+                "performedDateTime": "2020-05-23T01:30:00Z",
+                "performingSite": "Dr. Whitley172 Steuber698",
+                "resultStatus": "final"
+            }
+        ],
+        "vitalSigns": [
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Height"
+                        }
+                    ],
+                    "text": "Body Height"
+                },
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "160.1"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "cm"
+                        }
+                    ],
+                    "text": "cm"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                },
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "1"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "Score"
+                        }
+                    ],
+                    "text": "Score"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Weight"
+                        }
+                    ],
+                    "text": "Body Weight"
+                },
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "74.7"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "kg"
+                        }
+                    ],
+                    "text": "kg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Diastolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "88"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Systolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "105"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Heart rate"
+                        }
+                    ],
+                    "text": "Heart rate"
+                },
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "76"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Respiratory rate"
+                        }
+                    ],
+                    "text": "Respiratory rate"
+                },
+                "performedDateTime": "2015-04-21T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "15"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Height"
+                        }
+                    ],
+                    "text": "Body Height"
+                },
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "160.1"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "cm"
+                        }
+                    ],
+                    "text": "cm"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                },
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "3"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "Score"
+                        }
+                    ],
+                    "text": "Score"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Weight"
+                        }
+                    ],
+                    "text": "Body Weight"
+                },
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "80.6"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "kg"
+                        }
+                    ],
+                    "text": "kg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Diastolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "81"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Systolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "103"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Heart rate"
+                        }
+                    ],
+                    "text": "Heart rate"
+                },
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "72"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Respiratory rate"
+                        }
+                    ],
+                    "text": "Respiratory rate"
+                },
+                "performedDateTime": "2018-04-24T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "15"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Height"
+                        }
+                    ],
+                    "text": "Body Height"
+                },
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "160.1"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "cm"
+                        }
+                    ],
+                    "text": "cm"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                },
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "0"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "Score"
+                        }
+                    ],
+                    "text": "Score"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Weight"
+                        }
+                    ],
+                    "text": "Body Weight"
+                },
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "77.4"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "kg"
+                        }
+                    ],
+                    "text": "kg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Diastolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "76"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Systolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "103"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Heart rate"
+                        }
+                    ],
+                    "text": "Heart rate"
+                },
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "99"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Respiratory rate"
+                        }
+                    ],
+                    "text": "Respiratory rate"
+                },
+                "performedDateTime": "2021-04-27T08:43:18Z",
+                "performingSite": "Dr. Chauncey770 Ritchie586",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "15"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body temperature"
+                        }
+                    ],
+                    "text": "Body temperature"
+                },
+                "performedDateTime": "2022-12-07T04:43:18Z",
+                "performingSite": "Dr. Melvin857 Nikolaus26",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "37.829"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "Cel"
+                        }
+                    ],
+                    "text": "Cel"
+                }
+            }
+        ],
+        "healthAssessments": [
+            {
+                "assessment": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Tobacco smoking status"
+                        }
+                    ],
+                    "text": "Tobacco smoking status"
+                },
+                "issuedDateTime": "2015-04-21T08:43:19Z",
+                "effectiveDate": "2015-04-21T08:43:18Z",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Never smoked tobacco (finding)"
+                        }
+                    ],
+                    "text": "Never smoked tobacco (finding)"
+                }
+            },
+            {
+                "assessment": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Tobacco smoking status"
+                        }
+                    ],
+                    "text": "Tobacco smoking status"
+                },
+                "issuedDateTime": "2018-04-24T08:43:19Z",
+                "effectiveDate": "2018-04-24T08:43:18Z",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Never smoked tobacco (finding)"
+                        }
+                    ],
+                    "text": "Never smoked tobacco (finding)"
+                }
+            },
+            {
+                "assessment": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Tobacco smoking status"
+                        }
+                    ],
+                    "text": "Tobacco smoking status"
+                },
+                "issuedDateTime": "2021-04-27T08:43:19Z",
+                "effectiveDate": "2021-04-27T08:43:18Z",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Never smoked tobacco (finding)"
+                        }
+                    ],
+                    "text": "Never smoked tobacco (finding)"
+                }
+            },
+            {
+                "assessment": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Virus identified in Isolate"
+                        }
+                    ],
+                    "text": "virology"
+                },
+                "issuedDateTime": "2016-12-22T00:00:00Z",
+                "effectiveDate": "2016-12-22T19:38:16Z"
+            },
+            {
+                "assessment": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "CMV ANTIGENEMIA ASSAY POSITIVE"
+                        }
+                    ],
+                    "text": "CMV ANTIGENEMIA ASSAY POSITIVE"
+                },
+                "issuedDateTime": "2016-12-22T00:00:00Z",
+                "effectiveDate": "2016-12-22T19:38:16Z"
+            }
+        ],
+        "procedures": [
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "MEDICATION MANAGEMENT"
+                        }
+                    ],
+                    "text": "MEDICATION MANAGEMENT"
+                },
+                "procedureDateTime": "2015-04-21T08:43:18Z",
+                "procedurePerformedDate": "2015-04-21T08:43:18Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2015-04-21T08:43:18Z",
+                "procedurePerformedDate": "2015-04-21T08:43:18Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "DEPRESSION SCREEN ANNUAL"
+                        }
+                    ],
+                    "text": "DEPRESSION SCREEN ANNUAL"
+                },
+                "procedureDateTime": "2015-04-21T09:19:48Z",
+                "procedurePerformedDate": "2015-04-21T09:19:48Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "ALCOHOL AND/OR DRUG SERVICES"
+                        }
+                    ],
+                    "text": "ALCOHOL AND/OR DRUG SERVICES"
+                },
+                "procedureDateTime": "2015-04-21T10:07:30Z",
+                "procedurePerformedDate": "2015-04-21T10:07:30Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2018-04-24T08:43:18Z",
+                "procedurePerformedDate": "2018-04-24T08:43:18Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "DEPRESSION SCREEN ANNUAL"
+                        }
+                    ],
+                    "text": "DEPRESSION SCREEN ANNUAL"
+                },
+                "procedureDateTime": "2018-04-24T09:43:37Z",
+                "procedurePerformedDate": "2018-04-24T09:43:37Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "ALCOHOL AND/OR DRUG SERVICES"
+                        }
+                    ],
+                    "text": "ALCOHOL AND/OR DRUG SERVICES"
+                },
+                "procedureDateTime": "2018-04-24T10:34:47Z",
+                "procedurePerformedDate": "2018-04-24T10:34:47Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "MEDICATION MANAGEMENT"
+                        }
+                    ],
+                    "text": "MEDICATION MANAGEMENT"
+                },
+                "procedureDateTime": "2021-04-27T08:43:18Z",
+                "procedurePerformedDate": "2021-04-27T08:43:18Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2021-04-27T08:43:18Z",
+                "procedurePerformedDate": "2021-04-27T08:43:18Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "ALCOHOL AND/OR DRUG SERVICES"
+                        }
+                    ],
+                    "text": "ALCOHOL AND/OR DRUG SERVICES"
+                },
+                "procedureDateTime": "2021-04-27T10:15:46Z",
+                "procedurePerformedDate": "2021-04-27T10:15:46Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "EAR AND THROAT EXAMINATION"
+                        }
+                    ],
+                    "text": "EAR AND THROAT EXAMINATION"
+                },
+                "procedureDateTime": "2022-12-07T04:43:18Z",
+                "procedurePerformedDate": "2022-12-07T04:43:18Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            }
+        ],
+        "medicalDevices": [
+            {
+                "deviceID": "4-6XdS7aWtyWnStAH",
+                "deviceType": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Prosthesis, device (physical object)"
+                        }
+                    ],
+                    "text": "Prosthesis, device (physical object)"
+                }
+            }
+        ],
+        "encounters": [
+            {
+                "encounterDateTime": "2008-04-08",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2008-04-08",
+                "encounterEndDatetime": "2008-04-08"
+            },
+            {
+                "encounterDateTime": "2008-04-08",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "OFFICE O/P EST MOD 30-39 MIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2008-04-08",
+                "encounterEndDatetime": "2008-04-08",
+                "encounterReason": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Anemia, unspecified"
+                        }
+                    ],
+                    "text": "Anemia, unspecified"
+                }
+            },
+            {
+                "encounterDateTime": "2012-04-17",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2012-04-17",
+                "encounterEndDatetime": "2012-04-17"
+            },
+            {
+                "encounterDateTime": "2014-12-17",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "PERIODIC ORAL EVAL EST",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2014-12-17",
+                "encounterEndDatetime": "2014-12-17"
+            },
+            {
+                "encounterDateTime": "2015-04-21",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2015-04-21",
+                "encounterEndDatetime": "2015-04-21"
+            },
+            {
+                "encounterDateTime": "2015-05-30",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "CNSLNG PROVIDED SYMP MNGMNT",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2015-05-30",
+                "encounterEndDatetime": "2015-05-30",
+                "encounterReason": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                            "display": "UNSPECIFIED SINUSITIS (CHRONIC)"
+                        }
+                    ],
+                    "text": "UNSPECIFIED SINUSITIS (CHRONIC)"
+                }
+            },
+            {
+                "encounterDateTime": "2015-08-15",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "CNSLNG PROVIDED SYMP MNGMNT",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2015-08-15",
+                "encounterEndDatetime": "2015-08-15",
+                "encounterReason": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                            "display": "UNSPECIFIED SINUSITIS (CHRONIC)"
+                        }
+                    ],
+                    "text": "UNSPECIFIED SINUSITIS (CHRONIC)"
+                }
+            },
+            {
+                "encounterDateTime": "2018-04-24",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2018-04-24",
+                "encounterEndDatetime": "2018-04-24"
+            },
+            {
+                "encounterDateTime": "2018-11-26",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "PERIODIC ORAL EVAL EST",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2018-11-26",
+                "encounterEndDatetime": "2018-11-26"
+            },
+            {
+                "encounterDateTime": "2018-11-29",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "OFFICE O/P EST MOD 30-39 MIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2018-11-29",
+                "encounterEndDatetime": "2018-11-29"
+            },
+            {
+                "encounterDateTime": "2019-12-24",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "OFFICE O/P EST MOD 30-39 MIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2019-12-24",
+                "encounterEndDatetime": "2019-12-24"
+            },
+            {
+                "encounterDateTime": "2021-03-02",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "IMMUNIZATION ADMIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2021-03-02",
+                "encounterEndDatetime": "2021-03-02"
+            },
+            {
+                "encounterDateTime": "2021-03-23",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "IMMUNIZATION ADMIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2021-03-23",
+                "encounterEndDatetime": "2021-03-23"
+            },
+            {
+                "encounterDateTime": "2021-04-27",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2021-04-27",
+                "encounterEndDatetime": "2021-04-27"
+            },
+            {
+                "encounterDateTime": "2021-11-13",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "PERIODIC ORAL EVAL EST",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2021-11-13",
+                "encounterEndDatetime": "2021-11-13"
+            },
+            {
+                "encounterDateTime": "2022-12-07",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "CNSLNG PROVIDED SYMP MNGMNT",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2022-12-07",
+                "encounterEndDatetime": "2022-12-07",
+                "encounterReason": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Acute pharyngitis, unspecified"
+                        }
+                    ],
+                    "text": "Acute pharyngitis, unspecified"
+                }
+            }
+        ],
+        "id": "test"
+    },
+    "dataSourceID": "Test Source FHIR",
+    "dataProviderID": "Connectathon"
+}

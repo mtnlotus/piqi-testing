@@ -3398,7 +3398,7 @@
                 }
             }
         ],
-        "id": "patient-2000190"
+        "id": "2000190-bundle.json"
     },
     "dataSourceID": "Test Source FHIR",
     "dataProviderID": "Connectathon"

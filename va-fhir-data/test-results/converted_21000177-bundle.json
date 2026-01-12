@@ -1,0 +1,5075 @@
+{
+    "formatID": "FHIR JSON",
+    "messageID": "21000177",
+    "patient": {
+        "demographics": {
+            "patientIdentifier": "21000177",
+            "birthSex": {
+                "codings": [
+                    {
+                        "system": "http://hl7.org/fhir/us/core/CodeSystem/birthsex",
+                        "code": "F",
+                        "display": "Female"
+                    }
+                ],
+                "text": "Female"
+            },
+            "birthDate": "1982-10-26",
+            "ethnicity": {
+                "codings": [
+                    {
+                        "system": "urn:oid:2.16.840.1.113883.6.238",
+                        "code": "2186-5",
+                        "display": "Not Hispanic or Latino"
+                    }
+                ],
+                "text": "Not Hispanic or Latino"
+            },
+            "primaryLanguage": {
+                "text": "ENGLISH"
+            },
+            "race": {
+                "codings": [
+                    {
+                        "system": "urn:oid:2.16.840.1.113883.6.238",
+                        "code": "2054-5",
+                        "display": "Black or African American"
+                    }
+                ],
+                "text": "Black or African American"
+            }
+        },
+        "conditions": [
+            {
+                "conditionType": "Problem List Item",
+                "conditionStatus": {
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "condition": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Hypertension"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Hypertension"
+                        }
+                    ],
+                    "text": "Hypertension"
+                },
+                "effectiveDate": "2014-01-07",
+                "onsetDate": "2014-01-07T00:04:22Z"
+            },
+            {
+                "conditionType": "Problem List Item",
+                "conditionStatus": {
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "condition": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Body mass index 30+ - obesity (finding)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Body mass index 30+ - obesity (finding)"
+                        }
+                    ],
+                    "text": "Body mass index 30+ - obesity (finding)"
+                },
+                "effectiveDate": "2014-01-07",
+                "onsetDate": "2014-01-07T00:04:22Z"
+            },
+            {
+                "conditionType": "Problem List Item",
+                "conditionStatus": {
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "condition": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Metabolic syndrome X (disorder)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Metabolic syndrome X (disorder)"
+                        }
+                    ],
+                    "text": "Metabolic syndrome X (disorder)"
+                },
+                "effectiveDate": "2016-01-19",
+                "onsetDate": "2016-01-19T00:04:22Z"
+            },
+            {
+                "conditionType": "Problem List Item",
+                "conditionStatus": {
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "condition": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Diabetes"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Diabetes"
+                        }
+                    ],
+                    "text": "Diabetes"
+                },
+                "effectiveDate": "2022-02-22",
+                "onsetDate": "2022-02-22T00:04:22Z"
+            }
+        ],
+        "immunizations": [
+            {
+                "administrationDate": "2014-01-07T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2014-01-07T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "TD (ADULT), 5 LF TETANUS TOXOID, PRESERVATIVE FREE, ADSORBED"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: Td"
+                        }
+                    ],
+                    "text": "Td (adult) preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2015-01-13T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2016-01-19T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2017-01-24T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2018-01-30T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2019-02-05T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2020-02-11T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2021-02-16T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2021-04-06T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: COVID-19"
+                        }
+                    ],
+                    "text": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2021-04-27T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: COVID-19"
+                        }
+                    ],
+                    "text": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2022-02-22T00:04:22Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Other"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            }
+        ],
+        "diagnosticImaging": [
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2014-01-07T00:04:22Z",
+                "effectiveDate": "2014-01-07T00:04:22Z",
+                "issued": "2014-01-07T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2014-01-07T00:04:22Z",
+                "effectiveDate": "2014-01-07T00:04:22Z",
+                "issued": "2014-01-07T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2015-01-13T00:04:22Z",
+                "effectiveDate": "2015-01-13T00:04:22Z",
+                "issued": "2015-01-13T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2016-01-19T00:04:22Z",
+                "effectiveDate": "2016-01-19T00:04:22Z",
+                "issued": "2016-01-19T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2016-01-19T00:04:22Z",
+                "effectiveDate": "2016-01-19T00:04:22Z",
+                "issued": "2016-01-19T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2017-01-24T00:04:22Z",
+                "effectiveDate": "2017-01-24T00:04:22Z",
+                "issued": "2017-01-24T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2017-01-24T00:04:22Z",
+                "effectiveDate": "2017-01-24T00:04:22Z",
+                "issued": "2017-01-24T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2018-01-30T00:04:22Z",
+                "effectiveDate": "2018-01-30T00:04:22Z",
+                "issued": "2018-01-30T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2019-02-05T00:04:22Z",
+                "effectiveDate": "2019-02-05T00:04:22Z",
+                "issued": "2019-02-05T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2020-02-11T00:04:22Z",
+                "effectiveDate": "2020-02-11T00:04:22Z",
+                "issued": "2020-02-11T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2020-02-11T00:04:22Z",
+                "effectiveDate": "2020-02-11T00:04:22Z",
+                "issued": "2020-02-11T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2021-02-16T00:04:22Z",
+                "effectiveDate": "2021-02-16T00:04:22Z",
+                "issued": "2021-02-16T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2021-02-16T00:04:22Z",
+                "effectiveDate": "2021-02-16T00:04:22Z",
+                "issued": "2021-02-16T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2022-02-22T00:04:22Z",
+                "effectiveDate": "2022-02-22T00:04:22Z",
+                "issued": "2022-02-22T00:04:23Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2022-02-22T00:04:22Z",
+                "effectiveDate": "2022-02-22T00:04:22Z",
+                "issued": "2022-02-22T00:04:23Z"
+            }
+        ],
+        "medications": [
+            {
+                "startDate": "2022-02-22T00:04:22Z",
+                "instructions": "Take 1 time(s) every 1.0 day(s) - spread out evenly.",
+                "doseRoute": {
+                    "text": "As directed by physician."
+                },
+                "statementDate": "2022-02-22T00:04:22Z"
+            },
+            {
+                "startDate": "2022-03-29T04:05:47Z",
+                "statementDate": "2022-03-29T04:05:47Z"
+            }
+        ],
+        "labResults": [
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "5.87"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "72.5"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "10.64"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "0.98"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "9.27"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "142.19"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "5.19"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "110.31"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Carbon Dioxide"
+                        }
+                    ],
+                    "text": "Carbon Dioxide"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "25.43"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Total Cholesterol"
+                        }
+                    ],
+                    "text": "Total Cholesterol"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "147.27"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Triglycerides"
+                        }
+                    ],
+                    "text": "Triglycerides"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "134.24"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Low Density Lipoprotein Cholesterol"
+                        }
+                    ],
+                    "text": "Low Density Lipoprotein Cholesterol"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "69.99"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "High Density Lipoprotein Cholesterol"
+                        }
+                    ],
+                    "text": "High Density Lipoprotein Cholesterol"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "50.43"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                },
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "6.22"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "90.09"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "11.59"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "0.98"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "8.77"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "141.13"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "3.8"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "106.01"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Carbon Dioxide"
+                        }
+                    ],
+                    "text": "Carbon Dioxide"
+                },
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "25.71"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "6.22"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "84.82"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "16.33"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "0.97"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "9.96"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "143.36"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "4.82"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "103.3"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Carbon Dioxide"
+                        }
+                    ],
+                    "text": "Carbon Dioxide"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "26.28"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Leukocytes [#/volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Leukocytes [#/volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "7.5243"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*3/uL"
+                        }
+                    ],
+                    "text": "10*3/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Erythrocytes [#/volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Erythrocytes [#/volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "4.4744"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*6/uL"
+                        }
+                    ],
+                    "text": "10*6/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin [Mass/volume] in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin [Mass/volume] in Blood"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "13.57"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "g/dl"
+                        }
+                    ],
+                    "text": "g/dl"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+                        }
+                    ],
+                    "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "46.689"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCV [Entitic volume] by Automated count"
+                        }
+                    ],
+                    "text": "MCV [Entitic volume] by Automated count"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "81.025"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCH [Entitic mass] by Automated count"
+                        }
+                    ],
+                    "text": "MCH [Entitic mass] by Automated count"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "27.235"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "pg"
+                        }
+                    ],
+                    "text": "pg"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCHC [Mass/volume] by Automated count"
+                        }
+                    ],
+                    "text": "MCHC [Mass/volume] by Automated count"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "35.462"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "g/dl"
+                        }
+                    ],
+                    "text": "g/dl"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+                        }
+                    ],
+                    "text": "Erythrocyte distribution width [Entitic volume] by Automated count"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "45.802"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelets [#/volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Platelets [#/volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "387.03"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*3/uL"
+                        }
+                    ],
+                    "text": "10*3/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "506.09"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "11.607"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "6.3"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "97.31"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "14.2"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "0.96"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "8.58"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "143.36"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "3.75"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "107.04"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Carbon Dioxide"
+                        }
+                    ],
+                    "text": "Carbon Dioxide"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "25.39"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Total Cholesterol"
+                        }
+                    ],
+                    "text": "Total Cholesterol"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "131.42"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Triglycerides"
+                        }
+                    ],
+                    "text": "Triglycerides"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "139.09"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Low Density Lipoprotein Cholesterol"
+                        }
+                    ],
+                    "text": "Low Density Lipoprotein Cholesterol"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "50.5"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "High Density Lipoprotein Cholesterol"
+                        }
+                    ],
+                    "text": "High Density Lipoprotein Cholesterol"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "53.11"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                },
+                "issuedDateTime": "2018-01-30T00:04:23Z",
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "6.11"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2018-01-30T00:04:23Z",
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "80.91"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2018-01-30T00:04:23Z",
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "8.57"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2018-01-30T00:04:23Z",
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "1.24"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2018-01-30T00:04:23Z",
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "10.12"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2018-01-30T00:04:23Z",
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "142.33"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2018-01-30T00:04:23Z",
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "4.48"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2018-01-30T00:04:23Z",
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "105.19"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            }
+        ],
+        "vitalSigns": [
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Height"
+                        }
+                    ],
+                    "text": "Body Height"
+                },
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "159.6"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "cm"
+                        }
+                    ],
+                    "text": "cm"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                },
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "2"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "Score"
+                        }
+                    ],
+                    "text": "Score"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Weight"
+                        }
+                    ],
+                    "text": "Body Weight"
+                },
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "76.5"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "kg"
+                        }
+                    ],
+                    "text": "kg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Diastolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "93"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Systolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "160"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Heart rate"
+                        }
+                    ],
+                    "text": "Heart rate"
+                },
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "86"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Respiratory rate"
+                        }
+                    ],
+                    "text": "Respiratory rate"
+                },
+                "performedDateTime": "2014-01-07T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "14"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Diastolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2014-02-06T00:04:23Z",
+                "performedDateTime": "2014-02-06T00:04:22Z",
+                "performingSite": "Dr. Luis923 Bergstrom287 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "76"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Systolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2014-02-06T00:04:23Z",
+                "performedDateTime": "2014-02-06T00:04:22Z",
+                "performingSite": "Dr. Luis923 Bergstrom287 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "131"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Diastolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2014-04-07T00:04:23Z",
+                "performedDateTime": "2014-04-07T00:04:22Z",
+                "performingSite": "Dr. Luis923 Bergstrom287 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "78"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Systolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2014-04-07T00:04:23Z",
+                "performedDateTime": "2014-04-07T00:04:22Z",
+                "performingSite": "Dr. Luis923 Bergstrom287 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "127"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Diastolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2014-06-06T00:04:23Z",
+                "performedDateTime": "2014-06-06T00:04:22Z",
+                "performingSite": "Dr. Luis923 Bergstrom287 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "75"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Systolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2014-06-06T00:04:23Z",
+                "performedDateTime": "2014-06-06T00:04:22Z",
+                "performingSite": "Dr. Luis923 Bergstrom287 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "125"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Height"
+                        }
+                    ],
+                    "text": "Body Height"
+                },
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "159.6"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "cm"
+                        }
+                    ],
+                    "text": "cm"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                },
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "2"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "Score"
+                        }
+                    ],
+                    "text": "Score"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Weight"
+                        }
+                    ],
+                    "text": "Body Weight"
+                },
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "76.5"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "kg"
+                        }
+                    ],
+                    "text": "kg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Diastolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "76"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Systolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "128"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Heart rate"
+                        }
+                    ],
+                    "text": "Heart rate"
+                },
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "65"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Respiratory rate"
+                        }
+                    ],
+                    "text": "Respiratory rate"
+                },
+                "performedDateTime": "2015-01-13T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "14"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Height"
+                        }
+                    ],
+                    "text": "Body Height"
+                },
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "159.6"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "cm"
+                        }
+                    ],
+                    "text": "cm"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                },
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "2"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "Score"
+                        }
+                    ],
+                    "text": "Score"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Weight"
+                        }
+                    ],
+                    "text": "Body Weight"
+                },
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "76.5"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "kg"
+                        }
+                    ],
+                    "text": "kg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Diastolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "77"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Systolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "130"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Heart rate"
+                        }
+                    ],
+                    "text": "Heart rate"
+                },
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "73"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Respiratory rate"
+                        }
+                    ],
+                    "text": "Respiratory rate"
+                },
+                "performedDateTime": "2016-01-19T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "13"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Height"
+                        }
+                    ],
+                    "text": "Body Height"
+                },
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "159.6"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "cm"
+                        }
+                    ],
+                    "text": "cm"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                },
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "2"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "Score"
+                        }
+                    ],
+                    "text": "Score"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Weight"
+                        }
+                    ],
+                    "text": "Body Weight"
+                },
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "76.5"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "kg"
+                        }
+                    ],
+                    "text": "kg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Diastolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "77"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Systolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "125"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Heart rate"
+                        }
+                    ],
+                    "text": "Heart rate"
+                },
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "77"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Respiratory rate"
+                        }
+                    ],
+                    "text": "Respiratory rate"
+                },
+                "performedDateTime": "2017-01-24T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "15"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Height"
+                        }
+                    ],
+                    "text": "Body Height"
+                },
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "159.6"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "cm"
+                        }
+                    ],
+                    "text": "cm"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                },
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "2"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "Score"
+                        }
+                    ],
+                    "text": "Score"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body Weight"
+                        }
+                    ],
+                    "text": "Body Weight"
+                },
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "75.3"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "kg"
+                        }
+                    ],
+                    "text": "kg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Diastolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2018-01-30T00:04:23Z",
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "74"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic Blood Pressure"
+                        }
+                    ],
+                    "text": "Systolic Blood Pressure"
+                },
+                "interpretation": "Abnormal",
+                "issuedDateTime": "2018-01-30T00:04:23Z",
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "126"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm Hg"
+                        }
+                    ],
+                    "text": "mm Hg"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Heart rate"
+                        }
+                    ],
+                    "text": "Heart rate"
+                },
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "68"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Respiratory rate"
+                        }
+                    ],
+                    "text": "Respiratory rate"
+                },
+                "performedDateTime": "2018-01-30T00:04:22Z",
+                "performingSite": "Dr. Alysia661 Schmeler639 MD",
+                "interpretation": "Abnormal",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "12"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "/min"
+                        }
+                    ],
+                    "text": "/min"
+                }
+            }
+        ],
+        "healthAssessments": [
+            {
+                "assessment": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Tobacco smoking status"
+                        }
+                    ],
+                    "text": "Tobacco smoking status"
+                },
+                "issuedDateTime": "2014-01-07T00:04:23Z",
+                "effectiveDate": "2014-01-07T00:04:22Z",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Never smoked tobacco (finding)"
+                        }
+                    ],
+                    "text": "Never smoked tobacco (finding)"
+                }
+            },
+            {
+                "assessment": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Tobacco smoking status"
+                        }
+                    ],
+                    "text": "Tobacco smoking status"
+                },
+                "issuedDateTime": "2015-01-13T00:04:23Z",
+                "effectiveDate": "2015-01-13T00:04:22Z",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Never smoked tobacco (finding)"
+                        }
+                    ],
+                    "text": "Never smoked tobacco (finding)"
+                }
+            },
+            {
+                "assessment": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Tobacco smoking status"
+                        }
+                    ],
+                    "text": "Tobacco smoking status"
+                },
+                "issuedDateTime": "2016-01-19T00:04:23Z",
+                "effectiveDate": "2016-01-19T00:04:22Z",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Never smoked tobacco (finding)"
+                        }
+                    ],
+                    "text": "Never smoked tobacco (finding)"
+                }
+            },
+            {
+                "assessment": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Tobacco smoking status"
+                        }
+                    ],
+                    "text": "Tobacco smoking status"
+                },
+                "issuedDateTime": "2017-01-24T00:04:23Z",
+                "effectiveDate": "2017-01-24T00:04:22Z",
+                "resultValue": {
+                    "type": {
+                        "text": "CE"
+                    },
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Never smoked tobacco (finding)"
+                        }
+                    ],
+                    "text": "Never smoked tobacco (finding)"
+                }
+            }
+        ],
+        "procedures": [
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "MEDICATION MANAGEMENT"
+                        }
+                    ],
+                    "text": "MEDICATION MANAGEMENT"
+                },
+                "procedureDateTime": "2014-01-07T00:04:22Z",
+                "procedurePerformedDate": "2014-01-07T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2014-01-07T00:04:22Z",
+                "procedurePerformedDate": "2014-01-07T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2015-01-13T00:04:22Z",
+                "procedurePerformedDate": "2015-01-13T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "DEPRESSION SCREEN ANNUAL"
+                        }
+                    ],
+                    "text": "DEPRESSION SCREEN ANNUAL"
+                },
+                "procedureDateTime": "2015-01-13T01:10:22Z",
+                "procedurePerformedDate": "2015-01-13T01:10:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "ALCOHOL AND/OR DRUG SERVICES"
+                        }
+                    ],
+                    "text": "ALCOHOL AND/OR DRUG SERVICES"
+                },
+                "procedureDateTime": "2015-01-13T01:55:24Z",
+                "procedurePerformedDate": "2015-01-13T01:55:24Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "MEDICATION MANAGEMENT"
+                        }
+                    ],
+                    "text": "MEDICATION MANAGEMENT"
+                },
+                "procedureDateTime": "2016-01-19T00:04:22Z",
+                "procedurePerformedDate": "2016-01-19T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2016-01-19T00:04:22Z",
+                "procedurePerformedDate": "2016-01-19T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "DEPRESSION SCREEN ANNUAL"
+                        }
+                    ],
+                    "text": "DEPRESSION SCREEN ANNUAL"
+                },
+                "procedureDateTime": "2016-01-19T01:17:48Z",
+                "procedurePerformedDate": "2016-01-19T01:17:48Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "ALCOHOL AND/OR DRUG SERVICES"
+                        }
+                    ],
+                    "text": "ALCOHOL AND/OR DRUG SERVICES"
+                },
+                "procedureDateTime": "2016-01-19T02:04:02Z",
+                "procedurePerformedDate": "2016-01-19T02:04:02Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2017-01-24T00:04:22Z",
+                "procedurePerformedDate": "2017-01-24T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "ALCOHOL AND/OR DRUG SERVICES"
+                        }
+                    ],
+                    "text": "ALCOHOL AND/OR DRUG SERVICES"
+                },
+                "procedureDateTime": "2017-01-24T01:16:31Z",
+                "procedurePerformedDate": "2017-01-24T01:16:31Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "MEDICATION MANAGEMENT"
+                        }
+                    ],
+                    "text": "MEDICATION MANAGEMENT"
+                },
+                "procedureDateTime": "2018-01-30T00:04:22Z",
+                "procedurePerformedDate": "2018-01-30T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2018-01-30T00:04:22Z",
+                "procedurePerformedDate": "2018-01-30T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "DEPRESSION SCREEN ANNUAL"
+                        }
+                    ],
+                    "text": "DEPRESSION SCREEN ANNUAL"
+                },
+                "procedureDateTime": "2018-01-30T00:57:56Z",
+                "procedurePerformedDate": "2018-01-30T00:57:56Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "ALCOHOL AND/OR DRUG SERVICES"
+                        }
+                    ],
+                    "text": "ALCOHOL AND/OR DRUG SERVICES"
+                },
+                "procedureDateTime": "2018-01-30T01:52:56Z",
+                "procedurePerformedDate": "2018-01-30T01:52:56Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "MEDICATION MANAGEMENT"
+                        }
+                    ],
+                    "text": "MEDICATION MANAGEMENT"
+                },
+                "procedureDateTime": "2019-02-05T00:04:22Z",
+                "procedurePerformedDate": "2019-02-05T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2019-02-05T00:04:22Z",
+                "procedurePerformedDate": "2019-02-05T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "DEPRESSION SCREEN ANNUAL"
+                        }
+                    ],
+                    "text": "DEPRESSION SCREEN ANNUAL"
+                },
+                "procedureDateTime": "2019-02-05T00:48:10Z",
+                "procedurePerformedDate": "2019-02-05T00:48:10Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2020-02-11T00:04:22Z",
+                "procedurePerformedDate": "2020-02-11T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "DEPRESSION SCREEN ANNUAL"
+                        }
+                    ],
+                    "text": "DEPRESSION SCREEN ANNUAL"
+                },
+                "procedureDateTime": "2020-02-11T01:01:25Z",
+                "procedurePerformedDate": "2020-02-11T01:01:25Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2021-02-16T00:04:22Z",
+                "procedurePerformedDate": "2021-02-16T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "DEPRESSION SCREEN ANNUAL"
+                        }
+                    ],
+                    "text": "DEPRESSION SCREEN ANNUAL"
+                },
+                "procedureDateTime": "2021-02-16T00:51:42Z",
+                "procedurePerformedDate": "2021-02-16T00:51:42Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "MEDICATION MANAGEMENT"
+                        }
+                    ],
+                    "text": "MEDICATION MANAGEMENT"
+                },
+                "procedureDateTime": "2022-02-22T00:04:22Z",
+                "procedurePerformedDate": "2022-02-22T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "GENERAL HEALTH PANEL"
+                        }
+                    ],
+                    "text": "GENERAL HEALTH PANEL"
+                },
+                "procedureDateTime": "2022-02-22T00:04:22Z",
+                "procedurePerformedDate": "2022-02-22T00:04:22Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                            "display": "DEPRESSION SCREEN ANNUAL"
+                        }
+                    ],
+                    "text": "DEPRESSION SCREEN ANNUAL"
+                },
+                "procedureDateTime": "2022-02-22T01:07:12Z",
+                "procedurePerformedDate": "2022-02-22T01:07:12Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            }
+        ],
+        "medicalDevices": [
+            {
+                "deviceID": "4-6XdS7aWjzXYMhYH",
+                "deviceType": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Prosthesis, device (physical object)"
+                        }
+                    ],
+                    "text": "Prosthesis, device (physical object)"
+                }
+            }
+        ],
+        "encounters": [
+            {
+                "encounterDateTime": "2000-12-19",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2000-12-19",
+                "encounterEndDatetime": "2000-12-19"
+            },
+            {
+                "encounterDateTime": "2004-12-28",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2004-12-28",
+                "encounterEndDatetime": "2004-12-28"
+            },
+            {
+                "encounterDateTime": "2004-12-28",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "OFFICE O/P EST MOD 30-39 MIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2004-12-28",
+                "encounterEndDatetime": "2004-12-28",
+                "encounterReason": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Anemia, unspecified"
+                        }
+                    ],
+                    "text": "Anemia, unspecified"
+                }
+            },
+            {
+                "encounterDateTime": "2008-01-01",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2008-01-01",
+                "encounterEndDatetime": "2008-01-01"
+            },
+            {
+                "encounterDateTime": "2011-01-04",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2011-01-04",
+                "encounterEndDatetime": "2011-01-04"
+            },
+            {
+                "encounterDateTime": "2012-05-11",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "PERIODIC ORAL EVAL EST",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2012-05-11",
+                "encounterEndDatetime": "2012-05-11"
+            },
+            {
+                "encounterDateTime": "2014-01-07",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2014-01-07",
+                "encounterEndDatetime": "2014-01-07"
+            },
+            {
+                "encounterDateTime": "2014-02-06",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "HT CARE PLAN DOC",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2014-02-06",
+                "encounterEndDatetime": "2014-02-06",
+                "encounterReason": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Essential (primary) hypertension"
+                        }
+                    ],
+                    "text": "Essential (primary) hypertension"
+                }
+            },
+            {
+                "encounterDateTime": "2014-04-07",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "HT CARE PLAN DOC",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2014-04-07",
+                "encounterEndDatetime": "2014-04-07",
+                "encounterReason": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Essential (primary) hypertension"
+                        }
+                    ],
+                    "text": "Essential (primary) hypertension"
+                }
+            },
+            {
+                "encounterDateTime": "2014-05-01",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "PERIODIC ORAL EVAL EST",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2014-05-01",
+                "encounterEndDatetime": "2014-05-01"
+            },
+            {
+                "encounterDateTime": "2014-06-06",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "HT CARE PLAN DOC",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2014-06-06",
+                "encounterEndDatetime": "2014-06-06",
+                "encounterReason": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Essential (primary) hypertension"
+                        }
+                    ],
+                    "text": "Essential (primary) hypertension"
+                }
+            },
+            {
+                "encounterDateTime": "2015-01-13",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2015-01-13",
+                "encounterEndDatetime": "2015-01-13"
+            },
+            {
+                "encounterDateTime": "2015-03-24",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "CNSLNG PROVIDED SYMP MNGMNT",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2015-03-24",
+                "encounterEndDatetime": "2015-03-24",
+                "encounterReason": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Acute cystitis without hematuria"
+                        }
+                    ],
+                    "text": "Acute cystitis without hematuria"
+                }
+            },
+            {
+                "encounterDateTime": "2016-01-19",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2016-01-19",
+                "encounterEndDatetime": "2016-01-19"
+            },
+            {
+                "encounterDateTime": "2016-05-24",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "OFFICE O/P EST MOD 30-39 MIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2016-05-24",
+                "encounterEndDatetime": "2016-05-24"
+            },
+            {
+                "encounterDateTime": "2017-01-24",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2017-01-24",
+                "encounterEndDatetime": "2017-01-24"
+            },
+            {
+                "encounterDateTime": "2017-04-15",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "PERIODIC ORAL EVAL EST",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2017-04-15",
+                "encounterEndDatetime": "2017-04-15"
+            },
+            {
+                "encounterDateTime": "2017-04-18",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "OFFICE O/P EST MOD 30-39 MIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2017-04-18",
+                "encounterEndDatetime": "2017-04-18"
+            },
+            {
+                "encounterDateTime": "2018-01-30",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2018-01-30",
+                "encounterEndDatetime": "2018-01-30"
+            },
+            {
+                "encounterDateTime": "2018-04-13",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "PERIODIC ORAL EVAL EST",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2018-04-13",
+                "encounterEndDatetime": "2018-04-13"
+            },
+            {
+                "encounterDateTime": "2018-04-16",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "OFFICE O/P EST MOD 30-39 MIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2018-04-16",
+                "encounterEndDatetime": "2018-04-16"
+            },
+            {
+                "encounterDateTime": "2019-02-05",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2019-02-05",
+                "encounterEndDatetime": "2019-02-05"
+            },
+            {
+                "encounterDateTime": "2019-04-11",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "PERIODIC ORAL EVAL EST",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2019-04-11",
+                "encounterEndDatetime": "2019-04-11"
+            },
+            {
+                "encounterDateTime": "2020-02-11",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2020-02-11",
+                "encounterEndDatetime": "2020-02-11"
+            },
+            {
+                "encounterDateTime": "2020-04-05",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "PERIODIC ORAL EVAL EST",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2020-04-05",
+                "encounterEndDatetime": "2020-04-05"
+            },
+            {
+                "encounterDateTime": "2020-05-26",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "OFFICE O/P EST MOD 30-39 MIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2020-05-26",
+                "encounterEndDatetime": "2020-05-26"
+            },
+            {
+                "encounterDateTime": "2021-02-16",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2021-02-16",
+                "encounterEndDatetime": "2021-02-16"
+            },
+            {
+                "encounterDateTime": "2021-04-06",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "IMMUNIZATION ADMIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2021-04-06",
+                "encounterEndDatetime": "2021-04-06"
+            },
+            {
+                "encounterDateTime": "2021-03-31",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "PERIODIC ORAL EVAL EST",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2021-03-31",
+                "encounterEndDatetime": "2021-03-31"
+            },
+            {
+                "encounterDateTime": "2021-04-03",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "OFFICE O/P EST MOD 30-39 MIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2021-04-03",
+                "encounterEndDatetime": "2021-04-03"
+            },
+            {
+                "encounterDateTime": "2021-04-27",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "IMMUNIZATION ADMIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2021-04-27",
+                "encounterEndDatetime": "2021-04-27"
+            },
+            {
+                "encounterDateTime": "2022-02-22",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "GENERAL HEALTH PANEL",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2022-02-22",
+                "encounterEndDatetime": "2022-02-22"
+            },
+            {
+                "encounterDateTime": "2022-03-29",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "PERIODIC ORAL EVAL EST",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2022-03-29",
+                "encounterEndDatetime": "2022-03-29"
+            },
+            {
+                "encounterDateTime": "2022-04-01",
+                "encounterLocation": "TEST VA FACILITY",
+                "encounterType": "OFFICE O/P EST MOD 30-39 MIN",
+                "encounterStatus": "finished",
+                "class": "ambulatory",
+                "encounterStartDatetime": "2022-04-01",
+                "encounterEndDatetime": "2022-04-01"
+            }
+        ],
+        "id": "test"
+    },
+    "dataSourceID": "Test Source FHIR",
+    "dataProviderID": "Connectathon"
+}
