@@ -12,13 +12,13 @@ const vaPrivateKey = 'settings/va-private.pem'
 const signedJWT = getAssertionPrivatekey(vaClientID, vaPrivateKey, aud)
 
 // 56 year old male Veteran
-// await getAllFHIRData('2000190')
+await getAllFHIRData('2000190')
 
 // 35 year old female Veteran
 // await getAllFHIRData('36000216')
 
 // Veteran with Diabetes condition
-await getAllFHIRData('21000177')
+// await getAllFHIRData('21000177')
 
 // Veteran with Metformin meds
 // await getAllFHIRData('43000341')
@@ -102,6 +102,20 @@ async function getAllFHIRData(patientID) {
   const device = await getFHIRData('Device', patientID, accessToken)
   const deviceRequest = await getFHIRData('DeviceRequest', patientID, accessToken)
 
+  // Read referenced Medication resources because VA does not support _include
+  var medications = []
+  for (const entry of medicationRequest.entry) {
+    let medRef = entry.resource.medicationReference?.reference
+    if (medRef) {
+      // console.log(`MedicationRequest reference: ${medRef}`)
+      const medication = await getFHIRMedication(medRef, accessToken)
+      if (medication) {
+        medications.push({ resource: medication })
+      }
+    }
+  }
+  console.log(`Found ${medications.length} Medication resources`)
+
   const fhirBundle = {
     resourceType: 'Bundle',
     type: "collection",
@@ -110,6 +124,7 @@ async function getAllFHIRData(patientID) {
     ...observation.entry,
     ...diagnosticReport.entry,
     ...medicationRequest.entry,
+    ...medications,
     ...immunization.entry,
     ...allergy.entry,
     ...encounter.entry,
@@ -133,7 +148,7 @@ async function getFHIRData(resourceType, patientID, accessToken) {
     if (resourceType === 'MedicationRequest') {
       url = url + '&status=active'
       // BUG: Using VA sandbox, _include does not return Medication in the bundle or as contained.
-      url = url + '&_include=MedicationRequest:medication'
+      // url = url + '&_include=MedicationRequest:medication'
     }
     // console.log(url)
     const response = await fetch(url, {
@@ -151,6 +166,33 @@ async function getFHIRData(resourceType, patientID, accessToken) {
     }
 
     const result = await response.json(); // Await parsing the JSON body
+    // console.log('Success:', result);
+    // const jsonString = JSON.stringify(result, null, 2);
+    // await saveJsonToFile(jsonString, `test-data/${resourceType}-${patientID}.json`)
+    return result;
+
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
+// Returns a FHIR Medication resource
+async function getFHIRMedication(medicationReference, accessToken) {
+  try {
+    const response = await fetch(medicationReference, {
+      method: 'GET',
+      headers: {
+        'Authorization': `Bearer ${accessToken}`,
+        'Content-Type': 'application/json',
+        'Accept': 'application/fhir+json',
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const result = await response.json();
     // console.log('Success:', result);
     // const jsonString = JSON.stringify(result, null, 2);
     // await saveJsonToFile(jsonString, `test-data/${resourceType}-${patientID}.json`)

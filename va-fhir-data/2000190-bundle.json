@@ -6100,6 +6100,223 @@
       }
     },
     {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4-7SGVf3FjClwZKwaYjQe",
+        "meta": {
+          "lastUpdated": "2017-08-15T00:20:14Z"
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div>Hydrochlorothiazide 25 MG</div>"
+        },
+        "identifier": [
+          {
+            "id": "4016242"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "316049",
+              "display": "Hydrochlorothiazide 25 MG"
+            }
+          ],
+          "text": "Hydrochlorothiazide 25 MG"
+        },
+        "form": {
+          "text": "1 dose(s) 1 time(s) per 1 days"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4-7SGVf3FjClwZKwsnSXI",
+        "meta": {
+          "lastUpdated": "2010-04-24T02:13:11Z"
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div>Acetaminophen 160 MG</div>"
+        },
+        "identifier": [
+          {
+            "id": "4007166"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "608680",
+              "display": "Acetaminophen 160 MG"
+            }
+          ],
+          "text": "Acetaminophen 160 MG"
+        },
+        "form": {
+          "text": "1 dose(s) 1 time(s) per 1 days"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4-7SGVf3FjClwZKwslG92",
+        "meta": {
+          "lastUpdated": "2019-05-31T20:43:50Z"
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div>Naproxen sodium 220 MG Oral Tablet</div>"
+        },
+        "identifier": [
+          {
+            "id": "4006835"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "849574",
+              "display": "Naproxen sodium 220 MG Oral Tablet"
+            }
+          ],
+          "text": "Naproxen sodium 220 MG Oral Tablet"
+        },
+        "form": {
+          "text": "1 dose(s) 1 time(s) per 1 days"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4-7SGVf3FjClwZKwswG6K",
+        "meta": {
+          "lastUpdated": "2017-02-14T22:24:53Z"
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div>Ibuprofen 200 MG Oral Tablet</div>"
+        },
+        "identifier": [
+          {
+            "id": "4002412"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "310965",
+              "display": "Ibuprofen 200 MG Oral Tablet"
+            }
+          ],
+          "text": "Ibuprofen 200 MG Oral Tablet"
+        },
+        "form": {
+          "text": "1 dose(s) 1 time(s) per 1 days"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4-7SGVf3FjClwZKxT5unI",
+        "meta": {
+          "lastUpdated": "2020-10-31T08:01:11Z"
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div>Sertraline 100MG</div>"
+        },
+        "identifier": [
+          {
+            "id": "4010124"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "328670",
+              "display": "Sertraline 100MG"
+            }
+          ],
+          "text": "Sertraline 100MG"
+        },
+        "form": {
+          "text": "1 dose(s) 1 time(s) per 1 days"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4-7SGVf3FjClwZKxT87BY",
+        "meta": {
+          "lastUpdated": "2020-06-22T17:54:36Z"
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div>Acetaminophen/Hydrocodone</div>"
+        },
+        "identifier": [
+          {
+            "id": "4031542"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "856980",
+              "display": "Acetaminophen/Hydrocodone"
+            }
+          ],
+          "text": "Acetaminophen/Hydrocodone"
+        },
+        "form": {
+          "text": "1 dose(s) 1 time(s) per 1 days"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4-7SGVf3FjClwZKwspevY",
+        "meta": {
+          "lastUpdated": "2018-02-12T09:54:34Z"
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div>Acetaminophen 325 MG Oral Tablet</div>"
+        },
+        "identifier": [
+          {
+            "id": "4007158"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "313782",
+              "display": "Acetaminophen 325 MG Oral Tablet"
+            }
+          ],
+          "text": "Acetaminophen 325 MG Oral Tablet"
+        },
+        "form": {
+          "text": "1 dose(s) 1 time(s) per 1 days"
+        }
+      }
+    },
+    {
       "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6R3hFFvNs",
       "resource": {
         "resourceType": "Immunization",

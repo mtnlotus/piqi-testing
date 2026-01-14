@@ -9864,6 +9864,68 @@
       }
     },
     {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4-1abOXGOyKssbUB",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div>lisinopril 10 MG Oral Tablet</div>"
+        },
+        "identifier": [
+          {
+            "id": "4008593"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "314076",
+              "display": "lisinopril 10 MG Oral Tablet"
+            }
+          ],
+          "text": "lisinopril 10 MG Oral Tablet"
+        },
+        "form": {
+          "text": "2 dose(s) 3 time(s) per 1 days"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4-1abOXGOywLuOl1",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div>Liletta 52 MG Intrauterine System</div>"
+        },
+        "identifier": [
+          {
+            "id": "4036030"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1605257",
+              "display": "Liletta 52 MG Intrauterine System"
+            }
+          ],
+          "text": "Liletta 52 MG Intrauterine System"
+        },
+        "form": {
+          "text": "1 dose(s) 1 time(s) per 1 days"
+        }
+      }
+    },
+    {
       "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwNRz5DniU",
       "resource": {
         "resourceType": "Immunization",

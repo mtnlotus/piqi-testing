@@ -16943,6 +16943,68 @@
       }
     },
     {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4-1abOXvtfCWf3XH",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div>Insulin Lispro 100 UNT/ML Injectable Solution [Humalog]</div>"
+        },
+        "identifier": [
+          {
+            "id": "4001495"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "865098",
+              "display": "Insulin Lispro 100 UNT/ML Injectable Solution [Humalog]"
+            }
+          ],
+          "text": "Insulin Lispro 100 UNT/ML Injectable Solution [Humalog]"
+        },
+        "form": {
+          "text": "2 dose(s) 1 time(s) per 1 days"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4-1abOXvtfCS9OnT",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "text": {
+          "status": "additional",
+          "div": "<div>24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet</div>"
+        },
+        "identifier": [
+          {
+            "id": "4014984"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "860975",
+              "display": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+            }
+          ],
+          "text": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+        },
+        "form": {
+          "text": "2 dose(s) 4 time(s) per 1 days"
+        }
+      }
+    },
+    {
       "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abOSbuaz3sFKU",
       "resource": {
         "resourceType": "Immunization",
